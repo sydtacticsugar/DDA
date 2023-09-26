@@ -5,165 +5,210 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Digital Design Agency</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,400i,600|Roboto:700">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <div id="skiptocontent">
   <a href="#main_content" class="skip">Skip to content</a>
-	</div>
+</div>
+
 <header class="header">
-	<nav>
+	<div class="">
 		  <a href="#" class="logo">DDA</a>
+      
   <input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-  <ul class="menu">
-		<li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-		<li><a href="#">Portfolio</a></li>
-		<li><a href="#">Case Study</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-	</nav>
+  <nav class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+    <ul class="menu pure-menu-list">
+      <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
+      <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
+      <li class="pure-menu-item"><a href="#" class="pure-menu-link">Portfolio</a></li>
+      <li class="pure-menu-item"><a href="#" class="pure-menu-link">Case Study</a></li>
+      <li class="pure-menu-item"><a href="#" class="pure-menu-link">Blog</a></li>
+      <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
+    </ul>
+  </nav>
+</div>
 </header>
 
 
-<main id="main_content">
   <div class="bg-image"></div>
   <section id="intro_section">
-    <div>
-      <h1 id="page_title">Digital Design Agency</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium ab molestias eius in blanditiis ducimus velit explicabo qui, commodi autem. Ex, qui sunt. Voluptatibus!</p>
+    <div class="splash-container">
+      <div class="splash">
+        <div>
+          <h1 id="page_title" class="splash-head">Digital Design Agency</h1>
+          <p class="splash-subhead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium ab molestias eius in blanditiis ducimus velit explicabo qui, commodi autem. Ex, qui sunt. Voluptatibus!</p>
+        </div>
+        <a href="#" class="btn pure-button pure-button-primary">Learn More</a>
+      </div>
     </div>
-    <a href="#" class="btn">Learn More</a>
   </section>
 
-  <section id="services_section" class="cards-section">
-    <h2 class="section-title">What We Have to Offer</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi doloribus distinctio!</p>
-    <ul>
-      <li class="card">
-				<div class="fas fa-clipboard-check"></div>
-				<h3>Strategy</h3>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
-        </li>
-        <li class="card">
-            <div class="fas fa-users"></div>
-            <h3>UX Research</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
-        </li>
-        <li class="card">
-            <div class="fas fa-paper-plane"></div>
-            <h3>Marketing</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
-        </li>
-        <li class="card">
-            <div class="fas fa-search"></div>
-            <h3>SEO Services</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
-        </li>
-        <li class="card">
-            <div class="fas fa-crop"></div>
-            <h3>Web Design</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
-        </li>
-        <li class="card">
-            <div class="fas fa-desktop"></div>
-            <h3>Web Development</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
-        </li>
-    </ul>
-  </section>
+  <div class="content-wrapper">
 
-  <section id="video_section">
-  <!--
-  	<video controls
-            src="https://www.youtube.com/watch?v=hijd7nH4wRc">
-    </video>
-  -->
-  <iframe src="https://www.youtube.com/embed/hijd7nH4wRc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-	</section>
 
-  <section id="distinction_section">
-    <h2 class="section-title">Why We're Different</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis sapiente ipsam odit! Aliquam cum cupiditate cumque tempore a eos corporis nam, nemo necessitatibus amet et.</p>
-		<a href="#" class="btn">Learn More</a>
-  </section>
+    <section id="services_section" class="cards-section content">
+      <h2 class="section-title content-head is-center">What We Have to Offer</h2>
+      <p class="content-subhead is-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi doloribus distinctio!</p>
+      <ul class="pure-g">
+        <li class="card l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+          <img class="pure-img" src="images/DrawKit Vector Illustration Project Manager (8).svg" alt="">
+          <h3 class="content-subhead">
+            Strategy</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
+          </li>
+          <li class="card l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <img class="pure-img" src="images/DrawKit Vector Illustration Project Manager (1).svg" alt="">
+                        <h3 class="content-subhead">
+            UX Research</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
+          </li>
+          <li class="card l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <img class="pure-img" src="images/DrawKit Vector Illustration Project Manager (10).svg" alt="">
+                        <h3 class="content-subhead">
+            Marketing</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
+          </li>
+          <li class="card l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <img class="pure-img" src="images/DrawKit Vector Illustration Project Manager (6).svg" alt="">
+                        <h3 class="content-subhead">
+            SEO Services</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
+          </li>
+          <li class="card l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <img class="pure-img" src="images/DrawKit Vector Illustration Project Manager (5).svg" alt="">
+                        <h3 class="content-subhead">
+            Web Design</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
+          </li>
+          <li class="card l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <img class="pure-img" src="images/DrawKit Vector Illustration Project Manager (4).svg" alt="">
+                        <h3 class="content-subhead">
+            Web Development</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
+          </li>
+      </ul>
+    </section>
+    
 
-  <section id="portfolio_section" class="cards-section">
-    <h2 class="section-title">Our Latest Work</h2>
-    <ul>
-				<li class="portfolio-card">
-					<a href="#">
-						<img src="https://picsum.photos/300/200/?random" alt="">
-					</a>
-				</li>
-				<li class="portfolio-card">
-					<a href="#">
-						<img src="https://picsum.photos/301/201/?random" alt="">
-					</a>
-				</li>
-				<li class="portfolio-card">
-					<a href="#">
-						<img src="https://picsum.photos/302/202/?random" alt="">
-					</a>
-				</li>
-				<li class="portfolio-card">
-					<a href="#">
-						<img src="https://picsum.photos/303/203/?random" alt="">
-					</a>
-				</li>
-			</ul>
-			<a href="#" class="btn">See more</a>
-  </section>
+    
+      <section id="video_section" class="ribbon l-box-lrg pure-g">
+      <!--
+        <video controls
+                src="https://www.youtube.com/watch?v=hijd7nH4wRc">
+        </video>
+      -->
+      <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+        <iframe src="https://www.youtube.com/embed/hijd7nH4wRc?rel=0" width="100%" height="400px" class="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+    
+        <h2 class="content-head content-head-ribbon">Laboris nisi ut aliquip.</h2>
+  
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor.
+        </p>
+    </div>
+      </section>
 
-  <section id="process_section" class="cards-section">
-    <h2 class="section-title">Typical Process & Workflow</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita molestiae nisi deleniti quidem rerum ullam, quisquam dolorem! Optio doloremque nemo, consectetur nostrum quae repellendus!</p>
-    <ol>
-      <li class="card">
-				<div class="fas fa-window-restore"></div>
-				<h3>Project Research</h3>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
-			</li>
-      <li class="card">
-				<div class="far fa-object-group"></div>
-				<h3>Wireframes</h3>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
-			</li>
-      <li class="card">
-				<div class="fas fa-paint-brush"></div>
-				<h3>Design</h3>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
-			</li>
-      <li class="card">
-				<div class="fas fa-cogs"></div>
-				<h3>Development</h3>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
-			</li>
-    </ol>
-  </section>
 
-  <section id="clients_section">
-    <h2 class="section-title">What Our Clients Are Saying</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis quas illum nulla velit, iure reprehenderit?</p>
-    <ul>
-        <li class="client">
-            <img src="https://res.cloudinary.com/tashayar/image/upload/v1577758234/DDA/images_Clients_stockImageMan03.jpg" alt="Man with a beard">
-            <blockquote>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic rerum deserunt quidem, omnis ab cupiditate rem!</p>
-                <footer>
-                    <cite>FirstName LastName</cite>
-                    <p>Company, Position</p>
-                </footer>
-            </blockquote>
-        </li>
-        <li class="client">
-                <img src="https://res.cloudinary.com/tashayar/image/upload/v1577758233/DDA/images_Clients_stockImageWoman14.jpg" alt="woman in yellow hijab smiling">
+      <section id="distinction_section" class="l-box-lrg">
+        <div class="is-center">
+          <h2 class="section-title content-head">Why We're Different</h2>
+          <p class="content-subhead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae unde qui expedita accusamus tenetur eveniet maiores, amet nostrum non aliquam sint necessitatibus possimus adipisci at! Odit sapiente dolore incidunt vitae!</p>
+          <a href="#" class="btn pure-button">Learn More</a>
+        </div>
+      </section>
+    
+      <section id="portfolio_section" class="cards-section ribbon l-box-lrg">
+        <h2 class="section-title content-head content-head-ribbon is-center">Our Latest Work</h2>
+        <ul class="pure-g">
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <li class="portfolio-card">
+              <a href="#">
+                <img src="https://picsum.photos/300/200/?random" alt="" class="pure-img">
+              </a>
+          </div>
+            </li>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+              <li class="portfolio-card">
+                <a href="#">
+                  <img src="https://picsum.photos/301/201/?random" alt="" class="pure-img">
+                </a>
+              </li>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+              <li class="portfolio-card">
+                <a href="#">
+                  <img src="https://picsum.photos/302/202/?random" alt="" class="pure-img">
+                </a>
+              </li>  
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+              <li class="portfolio-card">
+                <a href="#">
+                  <img src="https://picsum.photos/303/203/?random" alt="" class="pure-img">
+                </a>
+              </li>              
+            </div>
+
+          </ul>
+          <div class="is-center">
+            <a href="#" class="btn pure-button pure-button-primary">See more</a>
+          </div>
+      </section>
+    
+      <section id="process_section" class="cards-section l-box-lrg">
+        <h2 class="section-title content-head is-center">Typical Process & Workflow</h2>
+        <p class="is-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita molestiae nisi deleniti quidem rerum ullam, quisquam dolorem! Optio doloremque nemo, consectetur nostrum quae repellendus!</p>
+        <ol class="pure-g">
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <li class="card">
+              <img class="pure-img" src="images/DrawKit Vector Illustration Project Manager (20).svg" alt="">
+              <h3>Project Research</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
+            </li>      
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <li class="card">
+              <img class="pure-img" src="images/DrawKit Vector Illustration Project Manager (16).svg" alt="">
+              <h3>Wireframes</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
+            </li>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <li class="card">
+              <img class="pure-img" src="images/DrawKit Vector Illustration Project Manager (18).svg" alt="">
+              <h3>Design</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
+            </li>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <li class="card">
+              <img class="pure-img" src="images/DrawKit Vector Illustration Project Manager (17).svg" alt="">
+              <h3>Development</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo exercitationem vel dolorem ab eius doloribus numquam earum tempora.</p>
+            </li>              
+          </div>
+
+        </ol>
+      </section>
+    
+      <section id="clients_section" class="l-box-lrg">
+        <h2 class="section-title content-head is-center">What Our Clients Are Saying</h2>
+        <p class="is-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis quas illum nulla velit, iure reprehenderit?</p>
+        <ul class="pure-g">
+            <li class="client pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <img src="https://res.cloudinary.com/tashayar/image/upload/v1577758234/DDA/images_Clients_stockImageMan03.jpg" alt="Man with a beard" class="pure-img">
                 <blockquote>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic rerum deserunt quidem, omnis ab cupiditate rem!</p>
                     <footer>
@@ -172,58 +217,88 @@
                     </footer>
                 </blockquote>
             </li>
-        <li class="client">
-                <img src="https://res.cloudinary.com/tashayar/image/upload/v1577758234/DDA/images_Clients_stockImageMan05.jpg" alt="salt and pepper haired man smiling">
-                <blockquote>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic rerum deserunt quidem, omnis ab cupiditate rem!</p>
-                    <footer>
-                        <cite>FirstName LastName</cite>
-                        <p>Company, Position</p>
-                    </footer>
-                </blockquote>
-            </li>
-        <li class="client">
-                <img src="https://res.cloudinary.com/tashayar/image/upload/v1577758234/DDA/images_Clients_stockImageWoman13.jpg" alt="woman with kinky curly hair smiling">
-                <blockquote>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic rerum deserunt quidem, omnis ab cupiditate rem!</p>
-                    <footer>
-                        <cite>FirstName LastName</cite>
-                        <p>Company, Position</p>
-                    </footer>
-                </blockquote>
-            </li>
-		</ul>
-  </section>
+            <li class="client pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <img src="https://res.cloudinary.com/tashayar/image/upload/v1577758233/DDA/images_Clients_stockImageWoman14.jpg" alt="woman in yellow hijab smiling" class="pure-img">
+                    <blockquote>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic rerum deserunt quidem, omnis ab cupiditate rem!</p>
+                        <footer>
+                            <cite>FirstName LastName</cite>
+                            <p>Company, Position</p>
+                        </footer>
+                    </blockquote>
+                </li>
+            <li class="client pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <img src="https://res.cloudinary.com/tashayar/image/upload/v1577758234/DDA/images_Clients_stockImageMan05.jpg" alt="salt and pepper haired man smiling" class="pure-img">
+                    <blockquote>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic rerum deserunt quidem, omnis ab cupiditate rem!</p>
+                        <footer>
+                            <cite>FirstName LastName</cite>
+                            <p>Company, Position</p>
+                        </footer>
+                    </blockquote>
+                </li>
+            <li class="client pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <img src="https://res.cloudinary.com/tashayar/image/upload/v1577758234/DDA/images_Clients_stockImageWoman13.jpg" alt="woman with kinky curly hair smiling" class="pure-img">
+                    <blockquote>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic rerum deserunt quidem, omnis ab cupiditate rem!</p>
+                        <footer>
+                            <cite>FirstName LastName</cite>
+                            <p>Company, Position</p>
+                        </footer>
+                    </blockquote>
+                </li>
+        </ul>
+      </section>
+    
+    <section id="contact_section" class="l-box-lrg is-center">
+        <h2 class="section-title content-head is-center">Contact us</h2>
+        <p class="is-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, quam nihil! Voluptates?</p>
+        <div class="pure-g">
+          <div class="pure-u-1 pure-u-md-1-3"></div>
+          <form action="#" method="post" class="pure-form pure-form-stacked l-box-lrg pure-u-lg-1-3">
+            <div class="group pure-control-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="client_name" required>
+              
+            </div>
+            <div class="group pure-control-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="client_name" required>
+              
+            </div>
+            <div class="group pure-control-group">
+              <label for="address">Address:</label>
+              <input type="text" id="address" name="client_address">
+              
+            </div>
+            <div class="group pure-control-group">
+              <label for="company_name">Company Name:</label>
+              <input type="text" id="company_name" name="client_company">
+              
+            </div>
+            <div class="group pure-control-group msg-div">
+              <label for="message">Message:</label>
+              <textarea id="message" name="client_message" rows=5 cols=5></textarea>
+              
+            </div>
+            <div class="button">
+              <button type="submit" class="btn pure-button pure-button-primary">Send your message</button>
+            </div>
+          </form>
+          <div class="pure-u-1 pure-u-md-1-3"></div>
+        </div>
 
-<section id="contact_section">
-    <h2 class="section-title">Get in Touch!</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, quam nihil! Voluptates?</p>
-    <form action="#" method="post">
-		<div class="group">
-			<input type="text" id="name" name="client_name" required>
-      <label for="name">Name:</label>
-		</div>
-		<div class="group">
-			<input type="email" id="email" name="client_name" required>
-      <label for="email">Email:</label>
-		</div>
-		<div class="group">
-			<input type="text" id="address" name="client_address">
-      <label for="address">Address:</label>
-		</div>
-		<div class="group">
-			<input type="text" id="company_name" name="client_company">
-      <label for="company_name">Company Name:</label>
-		</div>
-		<div class="group">
-			<textarea id="message" name="client_message"></textarea>
-      <label for="message">Message:</label>
-		</div>
-		<div class="button">
-			<button type="submit" class="btn">Send your message</button>
-		</div>
-	</form>
-  </section>
+      </section>
+
+
+
+      
+
+</div>
+
+
+
+
 
 </main>
 
